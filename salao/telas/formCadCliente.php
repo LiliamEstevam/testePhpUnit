@@ -11,6 +11,8 @@
    
     <div id='conteudo'>
         <form action="./cadCliente.php">
+        <input type='hidden' name="cpfAntigo" value='<?= $cliente->getCpf() ?>'
+        >
             <p>
                 cpf Cliente:
                 <input type="number" name="cpfCliente">

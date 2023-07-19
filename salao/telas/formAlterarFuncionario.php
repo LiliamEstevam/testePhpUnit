@@ -19,7 +19,7 @@
 
     ?>
     <div id='conteudo'>
-        <form action="./alterarCliente.php?">
+        <form action="./alterarFuncionario.php?">
             <input type='hidden' name="cpfAntigo" value='<?= $funcionario->getCpf() ?>'>
             <p>
                 cpf:

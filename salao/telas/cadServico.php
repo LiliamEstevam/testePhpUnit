@@ -11,6 +11,7 @@ $tempoServico = $_REQUEST['tempoServico'];
 $descricaoServico = $_REQUEST['descricaoServico'];
 $valorServico = $_REQUEST['valorServico'];
 
+
 $servico = new Servico(
   $nomeServico,
   $tipoServico,
