@@ -3,7 +3,7 @@
 //ROOT constante que armazena o caminho para o diretório raíz do servidor
 define('ROOT', $_SERVER['DOCUMENT_ROOT']);
 //PASTASISTEMA constante que armazena o nome da pasta que representa o sistema
-define('PASTASISTEMA', 'salao');
+define('PASTASISTEMA', 'testePhpUnit');
 //PATH constante com o caminho completo até a pasta do sistema (dentro do servidor)
 define('PATH', ROOT . '/' . PASTASISTEMA . '/');
 

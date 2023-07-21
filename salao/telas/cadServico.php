@@ -10,6 +10,7 @@ $tipoServico = $_REQUEST['tipoServico'];
 $tempoServico = $_REQUEST['tempoServico'];
 $descricaoServico = $_REQUEST['descricaoServico'];
 $valorServico = $_REQUEST['valorServico'];
+$codServico = $_REQUEST['codServico'];
 
 
 $servico = new Servico(
@@ -18,6 +19,7 @@ $servico = new Servico(
   $tempoServico,
   $descricaoServico,
   $valorServico,
+  $codServico
 );
 
 $salao->cadastrarServico($servico);
@@ -30,5 +32,9 @@ $salao->cadastrarServico($servico);
 // echo $valorServico . '<br>';
 
 foreach ($salao->getServicos() as $servico) {
-  echo $servico->getNome() . "<br>";
-}
+  echo $servico->getNome() . " " . $servico->getTipo() ." " . $servico->getTempo() ." " . $servico->getDescricao() ." " . $servico->getValor() ." " . $servico->getCodServico() . "<br>";
+}?>
+<script>
+    alert('Servico cadastrado com sucesso!!!');
+    window.location.href = "../index.php";
+</script>

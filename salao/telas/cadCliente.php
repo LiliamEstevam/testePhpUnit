@@ -25,3 +25,8 @@ if ($sucesso) {
 foreach ($salao->getCliente() as $cliente) {
   echo $cliente->getCpf() . " " . $cliente->getNome() . "<br>";
 }
+?>
+<script>
+    alert('Cliente cadastrado com sucesso!!!');
+    window.location.href = "../index.php";
+</script>

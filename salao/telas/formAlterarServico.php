@@ -20,10 +20,10 @@
     ?>
     <div id='conteudo'>
         <form action="./alterarServico.php?">
-            <input type='hidden' name="codServicoAntigo" value='<?= $servico->getServico() ?>'>
+            <input type='hidden' name="codServicoAntigo" value='<?= $servico->getCodServico() ?>'>
             <p>
                 Serviço:
-                <input type="text" name="codServicoAntigo" value='<?= $servico->getServico() ?>'>
+                <input type="text" name="codServico" value='<?= $servico->getCodServico() ?>'>
             </p>
             <input type="submit" value="Enviar">
         </form>

@@ -19,7 +19,7 @@
 
     ?>
     <div id='conteudo'>
-        <form action="./alterarAgencia.php?">
+        <form action="./alterarAgenda.php?">
             <input type='hidden' name="codAgendaAntigo"
                 value='<?= $agenda->getAgenda() ?>'
             >

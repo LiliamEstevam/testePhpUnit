@@ -67,6 +67,11 @@
                 <input type="number" name="valorServico">
             </label>
             <br>
+            <label>
+                Codigo servico:
+                <input type="number" name="codServico">
+            </label>
+            <br>
             <input type="submit" value="Enviar">
         </form>
     </div>

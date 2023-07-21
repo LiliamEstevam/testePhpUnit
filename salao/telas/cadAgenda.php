@@ -33,3 +33,8 @@ foreach ($salao->getAgendas() as $agenda) {
   echo $agenda->getCodAgenda() . " " . $agenda->getCliente() . "<br>";
   //mostrar mais coisa na agenda se quiser;
 }
+?>
+<script>
+    alert('Cliente cadastrado com sucesso!!!');
+    window.location.href = "../index.php";
+</script>
